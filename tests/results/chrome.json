@@ -1,0 +1,110 @@
+[
+  {
+    "description": "    As a card member\n    I want to visit the payment center\n    So that I can View paymets and transctions",
+    "keyword": "Feature",
+    "name": "Dashboard",
+    "line": 1,
+    "id": "dashboard",
+    "tags": [],
+    "uri": "tests/features/dashboard.feature",
+    "elements": [
+      {
+        "id": "dashboard;visit-the-dashboard-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Visit the Dashboard Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/features/support/hooks.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I navigate to the Dasboard",
+            "match": {
+              "location": "tests/features/support/dashboardSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the nav bar",
+            "match": {
+              "location": "tests/features/support/dashboardSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see the balance details component",
+            "match": {
+              "location": "tests/features/support/dashboardSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should see the transactions component",
+            "match": {
+              "location": "tests/features/support/dashboardSteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see the recent transactions header",
+            "match": {
+              "location": "tests/features/support/dashboardSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/features/support/hooks.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
